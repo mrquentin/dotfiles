@@ -4,6 +4,7 @@
 [[ -f ~/.zsh/nvm.zsh ]] && source ~/.zsh/nvm.zsh
 [[ -f ~/.zsh/wsl2fix.zsh ]] && source ~/.zsh/wsl2fix.zsh
 [[ -f ~/.zsh/goto.zsh ]] && source ~/.zsh/goto.zsh
+[[ -f ~/.zsh/oh-my-zsh.zsh ]] && source ~/.zsh/oh-my-zsh.zsh
 
 # Load Starship
 eval "$(starship init zsh)"
