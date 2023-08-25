@@ -8,3 +8,4 @@ alias grep="grep --color"
 
 # Alias for dotfiles management
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cconfig='config commit -m'
