@@ -1,3 +1,6 @@
 # Enable true color
 export COLORTERM=truecolor
-export PATH="/home/USERNAME/.pyenv/bin:$PATH"
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"

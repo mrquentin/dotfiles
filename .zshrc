@@ -4,5 +4,6 @@
 [[ -f ~/.zsh/oh-my-zsh.zsh ]] && source ~/.zsh/oh-my-zsh.zsh
 
 
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# Pyenv
+eval "$(pyenv init - --path)"
+eval "$(pyenv virtualenv-init - --path)"
